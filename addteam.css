@@ -1,0 +1,12 @@
+.field {
+    height: 35px;
+    width: 310px;
+}
+
+.float-left {
+    float: left;
+}
+
+.heading-padding {
+    padding-top: 5px;
+}

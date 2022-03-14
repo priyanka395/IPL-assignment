@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="addteam.css">
+
+</head>
+
+<body>
+    <div style="text-align: center;color: rgb(17, 167, 253);">
+        <h1><b>IPL Cricket Team</b></h1>
+    </div>
+    <br>
+    <div style="text-align: center;color: rgb(40, 48, 53)" id="logoId">
+        
+    </div>
+    <br>
+    <div style="text-align: center;color: rgb(40, 48, 53)">
+        <h2><b>Add New Player</b></h2>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <form>
+            <b class="heading-padding">Player Name: </b><input id="playername" type="text" class="field"
+                placeholder="Enter Player name" required>
+            <br>
+            <br>
+            <b class="heading-padding">Player Role: </b><input id="playerdescription" type="text" class="field"
+                placeholder="Enter Player Role" required>
+            <br>
+            <br>
+            <b class="heading-padding">Player price: </b><input id="playerprice" type="text" class="field"
+                placeholder="Enter Player Price" required>
+            <br>
+            <br>
+            <b class="heading-padding">Is Playing Player: </b><input id="playingplayer" type="radio"
+                name="playingplayerName" value="true" required>Yes<input id="playingplayer" type="radio"
+                name="playingplayerName" required value="false">No
+            <br>
+            <br>
+            <input id="savebutton" type="submit" style="height: 34px;width: 116px;color: rgb(62, 124, 218);"
+                value="Save">
+        </form>
+    </div>
+    <script src="addplayer.js"></script>
+</body>
+
+</html>
